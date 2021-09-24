@@ -1,0 +1,79 @@
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+  background-size: cover;
+}
+
+.footer-wrap {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  @media (min-width: 1240px) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    // grid-template-rows: auto auto;
+    grid-template-areas:
+      "about-us support contacts social"
+      "footer-menu footer-menu footer-menu footer-menu";
+  }
+}
+
+@media (min-width: 1240px) {
+  .about-us {
+    grid-area: about-us;
+  }
+
+  .support {
+    grid-area: support;
+  }
+
+  .contacts {
+    grid-area: contacts;
+  }
+
+  .social {
+    grid-area: social;
+  }
+
+  .footer-menu {
+    grid-area: footer-menu;
+  }
+}
+
+.footer-block {
+  margin-bottom: 30px;
+  &-list {
+    list-style-type: none;
+    @include reset;
+    @include reset-padding;
+  }
+  &-title {
+    margin-bottom: 16px;
+  }
+  a {
+    text-decoration: none;
+    color: $grey;
+  }
+  h2 {
+    @include h2-mobile;
+  }
+  li {
+    margin-right: 16px;
+  }
+}
+
+.footer-menu {
+  @include reset;
+  border-top: 1px solid $grey;
+  margin-right: -20px;
+  margin-left: -20px;
+  padding-left: 20px;
+  padding-top: 40px;
+  @media (min-width: 1240px) {
+    li {
+      display: inline-block;
+    }
+  }
+}
+
+.mr-16px {
+  margin-right: 16px;
+}

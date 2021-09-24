@@ -1,0 +1,19 @@
+.mobile-app-image {
+  margin-bottom: 16px;
+}
+
+.bg-red {
+  background: $red;
+}
+
+.mobile-app-btn {
+  border-radius: 35px;
+  @include text-small;
+  padding: 16px 40px;
+  width: auto;
+  text-transform: none;
+}
+
+.pb-100px {
+  padding-bottom: 100px;
+}

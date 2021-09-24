@@ -1,0 +1,32 @@
+@font-face {
+  font-weight: 400;
+  font-family: "Roboto";
+  src:
+    local("Roboto"),
+    url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Roboto";
+  src:
+    local("Roboto"),
+    url("../fonts/Roboto/Roboto-Bold.ttf");
+}
+
+.text-main {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.caps-bold-text {
+  @include caps-bold-text;
+}
+
+.capitalize-text {
+  text-transform: capitalize;
+}

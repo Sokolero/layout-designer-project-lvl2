@@ -3,8 +3,53 @@
   <head>
     <meta charset="utf-8">
     <title>layout-designer-project-lvl2 user-e992e2ec0f4fea43</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
+    <header class="header">
+      <div class="container">
+        <div class="flex-100 wrap align-items-center">
+          <img class="logo-img" src="images/logo.svg" alt="logo">
+          <span class="logo-text">
+            Music box
+          </span>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-list-item">Главная</li>
+              <li class="nav-list-item">Каталог</li>
+              <li class="nav-list-item">Исполнители</li>
+              <li class="nav-list-item">Контакты</li>
+            </ul>
+          </nav>
+          <div class="search-box">
+            <input class="search-box-input text-uppercase pl-5px" type="text" name="search" value="" placeholder="поиск...">
+          </div>
+        </div>
+      </div>
+    </header>
 
+    <section class="artist-banner pt-200px pb-200px" id="page-description">
+      <div class="container">
+        <h1 class="artist-title mb-16px">Morten Harken</h1>
+        <div class="artist-fans mb-48px-69px">
+          24 875 поклонников
+        </div>
+        <div class="artist-btns flex-100">
+          <button class="btn artist-banner-btn bg-purple" type="button" name="button">
+            <div class="btn-wrap">
+              <img class="btn-icon" src="images/play-button.svg" alt="">
+              <span>Микс</span>
+            </div>
+          </button>
+          <button class="btn artist-banner-btn bg-red" type="button" name="button">
+            <div class="btn-wrap">
+              <img class="btn-icon" src="images/heart.svg" alt="">
+              <span>В избранное</span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

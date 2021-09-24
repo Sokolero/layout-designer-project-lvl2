@@ -1,0 +1,61 @@
+.banner {
+  background-image: url(../images/banner.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-form {
+  flex-direction: column;
+  @media (min-width: 1240px) {
+    width: 570px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.banner-form-field {
+  @include banner-form-field-mobile;
+  height: 50px;
+  border: 2px solid $dark-grey;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.41px;
+  background-color: rgb(255, 255, 255, 0.0);
+  @media (min-width: 1240px) {
+    width: 273px;
+  }
+}
+
+.banner-form-field::placeholder {
+  color: #fff;
+  padding-left: 22px;
+}
+
+%btn-generic {
+  display: inline-block;
+  width: 100%;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 400px;
+  font-family: Arial, sans-serif;
+  font-size: 13.3px;
+  line-height: 15.29px;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  @media (min-width: 1240px) {
+    width: 100%;
+  }
+}
+
+.btn {
+  @extend %btn-generic;
+}
+
+.bg-green {
+  background: $green;
+}

@@ -1,0 +1,46 @@
+.artist-banner {
+  background-image: url('Morten-Harket.png');
+  background-position: center;
+  background-size: cover;
+  &-btns {
+
+  }
+  &-btn {
+    padding: 20px 30px;
+    @include text-small;
+    margin-right: 1.5rem;
+    width: 200px;
+  }
+}
+
+.btn-wrap {
+  display: flex;
+  align-items: center;
+}
+
+
+.btn-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+  filter: invert(100%);
+}
+
+.pt-200px {
+  padding-top: 200px;
+}
+
+.pb-200px {
+  padding-bottom: 200px;
+}
+
+.bg-purple {
+  background: $purple;
+}
+
+.mb-48px-69px {
+  margin-bottom: 48px;
+  @media (min-width: 1240px) {
+    margin-bottom: 69px;
+  }
+}

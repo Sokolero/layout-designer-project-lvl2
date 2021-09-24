@@ -1,0 +1,49 @@
+.news-item {
+  width: 100%;
+}
+
+.mb-48px {
+  margin-bottom: 48px;
+}
+
+.news-image {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.news-body {
+  margin-bottom: 24px;
+}
+
+.news-author {
+  margin-bottom: 48px;
+  vertical-align: middle;
+}
+
+.dark-grey {
+  color: $dark-grey;
+}
+
+.orange {
+  color: $orange;
+}
+
+.text-small {
+  @include text-small;
+}
+
+.news-btn {
+  @extend %btn-generic;
+  @include text-small;
+  width: auto;
+  padding: 17px 30px;
+  border: 1px solid $dark-grey;
+}
+
+.mr-16px {
+  margin-right: 16px;
+}
+
+.mb-64px {
+  margin-bottom: 64px;
+}
