@@ -1,0 +1,24 @@
+.similar {
+  padding-top: 100px;
+  margin-bottom: 100px;
+
+  &-title {
+    margin-bottom: 48px;
+  }
+}
+
+.similar-item {
+  width: 137px;
+  margin-right: 50px;
+  margin-bottom: 25px;
+  text-align: center;
+  &-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 18px;
+  }
+  &-title {
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+}

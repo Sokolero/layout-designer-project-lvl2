@@ -1,0 +1,30 @@
+.discography {
+  padding-top: 100px;
+
+  &-title {
+    margin-bottom: 48px;
+  }
+}
+
+.discography-item {
+  width: 137px;
+  margin-bottom: 25px;
+  margin-right: 50px;
+
+  &-image {
+    width: 137px;
+    height: 137px;
+    margin-bottom: 1rem;
+  }
+
+  &-title {
+    width: 138px;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 27px;
+  }
+
+  &-year {
+    @include reset;
+  }
+}

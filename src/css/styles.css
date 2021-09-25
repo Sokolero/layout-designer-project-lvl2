@@ -566,7 +566,7 @@ h4 {
 }
 
 .artist-banner {
-  background-image: url("Morten-Harket.png");
+  background-image: url("../images/Morten-Harket.png");
   background-position: center;
   background-size: cover;
 }
@@ -575,7 +575,17 @@ h4 {
   font-size: 12.8px;
   line-height: 19.2px;
   margin-right: 1.5rem;
+  margin-bottom: 24px;
   width: 200px;
+}
+
+.artist-btns {
+  flex-direction: column;
+}
+@media (min-width: 1240px) {
+  .artist-btns {
+    flex-direction: row;
+  }
 }
 
 .btn-wrap {
@@ -609,6 +619,83 @@ h4 {
   .mb-48px-69px {
     margin-bottom: 69px;
   }
+}
+
+.tracks {
+  padding-top: 100px;
+}
+.tracks-title {
+  margin-bottom: 48px;
+}
+.tracks-item {
+  display: flex;
+  margin-bottom: 25px;
+}
+.tracks-item-image {
+  width: 55px;
+  height: auto;
+  margin-right: 15px;
+}
+.tracks-item-name {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.tracks-item-description {
+  flex: 1 1 auto;
+}
+.tracks-item-time {
+  width: auto;
+}
+
+.discography {
+  padding-top: 100px;
+}
+.discography-title {
+  margin-bottom: 48px;
+}
+
+.discography-item {
+  width: 137px;
+  margin-bottom: 25px;
+  margin-right: 50px;
+}
+.discography-item-image {
+  width: 137px;
+  height: 137px;
+  margin-bottom: 1rem;
+}
+.discography-item-title {
+  width: 138px;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 27px;
+}
+.discography-item-year {
+  margin: 0;
+}
+
+.similar {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+.similar-title {
+  margin-bottom: 48px;
+}
+
+.similar-item {
+  width: 137px;
+  margin-right: 50px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.similar-item-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 18px;
+}
+.similar-item-title {
+  text-transform: capitalize;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=styles.css.map */
