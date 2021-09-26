@@ -48,3 +48,9 @@
   font-size: 18px;
   line-height: 27px;
 }
+
+@mixin mb($value) {
+  .mb-#{$value} {
+    margin-bottom: $value;
+  }
+}
