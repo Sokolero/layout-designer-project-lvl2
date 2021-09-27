@@ -26,6 +26,9 @@
   flex: 1 0 30%;
   @include caps-bold-text;
   @include font-11px;
+  a {
+    text-decoration: none;
+  }
   .nav-list {
     list-style-type: none;
     padding: 0;

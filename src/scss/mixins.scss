@@ -54,3 +54,17 @@
     margin-bottom: $value;
   }
 }
+
+@mixin mt($value) {
+  .mt-#{$value} {
+    margin-top: $value;
+  }
+}
+
+@mixin mb-lg($value) {
+  .mb-#{$value}-lg {
+    @media (min-width: 1240px) {
+      margin-bottom: $value;
+    }
+  }
+}

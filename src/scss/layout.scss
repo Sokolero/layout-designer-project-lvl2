@@ -37,6 +37,12 @@
   }
 }
 
+.dir-row-reverse-1240 {
+  @media (min-width: 1240px) {
+    flex-direction: row-reverse;
+  }
+}
+
 .text-center {
   text-align: center;
 }

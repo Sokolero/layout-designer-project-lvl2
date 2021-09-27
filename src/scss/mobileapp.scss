@@ -1,6 +1,18 @@
 .mobile-app-image {
   height: auto;
   margin-bottom: -18px;
+  @media (min-width: 1240px) {
+    width: 333px;
+  }
+}
+
+.mobile-app-image-box {
+  flex: 1 1 50%;
+  text-align: center;
+}
+
+.mobile-app-body {
+  flex: 1 1 50%;
 }
 
 .bg-red {
@@ -8,7 +20,7 @@
 }
 
 .mobile-app-btn {
-  border-radius: 35px;
+  border-radius: 32px;
   @include text-small;
   padding: 16px 40px;
   width: auto;

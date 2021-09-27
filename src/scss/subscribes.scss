@@ -10,7 +10,15 @@
   border-radius: 1rem;
   margin-bottom: 54px;
 
+  h3 {
+    font-weight: 400;
+  }
+
   @media (min-width: 1240px) {
+    margin-bottom: 0;
+    h3 {
+      line-height: 1.5;
+    }
     & {
       flex: 1 1 28%;
       margin-right: 50px;
@@ -48,12 +56,13 @@
 .price-btn-wrap {
   height: 66px;
   .price-btn {
-    @extend %btn-generic;
     display: inline-block;
-    @include font-size-line(16px, 24px);
+    font-size: 16px;
+    line-height: 1.5;
     border: 1px solid #fff;
     text-decoration: none;
     text-align: center;
+    background: none;
   }
 }
 

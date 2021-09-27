@@ -11,3 +11,38 @@
 @include mb(24px);
 @include mb(17px);
 @include mb(68px);
+@include mt(0px);
+@include mb(65px);
+
+.mr-25px {
+  margin-right: 25px;
+}
+
+.ml-25px {
+  margin-left: 25px;
+}
+
+.price {
+  margin-top: 0;
+  margint-bottom: 40px;
+}
+
+.text-grey {
+  color: $grey;
+}
+
+.text-white {
+  color: #fff;
+}
+
+// banner
+@include mb-lg(31px);
+@include mb-lg(0px);
+
+.fs-30px {
+  font-size: 30px;
+}
+
+.lh-main {
+  line-height: $main-line-height;
+}
