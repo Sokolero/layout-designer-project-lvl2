@@ -198,15 +198,10 @@ h4 {
   }
 }
 
-.header {
+.header-wrapper {
+  width: 100%;
   position: absolute;
   top: 25px;
-  width: 100%;
-}
-@media (min-width: 1240px) {
-  .header {
-    padding: 0 20px;
-  }
 }
 
 .logo-img {

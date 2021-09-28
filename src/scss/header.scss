@@ -1,10 +1,10 @@
-.header {
+.header-wrapper {
+  width: 100%;
   position: absolute;
   top: 25px;
-  width: 100%;
-  @media (min-width: 1240px) {
-    padding: 0 20px;
-  }
+}
+
+.header {
 }
 
 .logo-img {
