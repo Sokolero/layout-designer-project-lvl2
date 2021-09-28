@@ -156,6 +156,10 @@ h4 {
   padding-top: 250px;
 }
 
+.pt-200px {
+  padding-top: 200px;
+}
+
 .pb-200px {
   padding-bottom: 200px;
 }
@@ -331,8 +335,7 @@ h4 {
 .news-btn, .btn {
   display: inline-block;
   width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 30px;
   border: none;
   border-radius: 5px;
   font-weight: 400;
@@ -359,7 +362,7 @@ h4 {
   width: 100%;
   max-width: 374px;
   padding-top: 19px;
-  padding-bottom: 87px;
+  padding-bottom: 64px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 1rem;
@@ -882,6 +885,28 @@ h4 {
 @media (min-width: 1240px) {
   .pt-250px-lg {
     padding-top: 250px;
+  }
+}
+
+@media (min-width: 1240px) {
+  .mb-30px-lg {
+    margin-bottom: 30px;
+  }
+}
+
+.mb-16px {
+  margin-bottom: 16px;
+}
+
+@media (min-width: 1240px) {
+  .mr-50px-lg {
+    margin-right: 25px;
+  }
+}
+
+@media (min-width: 1240px) {
+  .mb-64px-lg {
+    margin-bottom: 64px;
   }
 }
 

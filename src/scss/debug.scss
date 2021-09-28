@@ -64,3 +64,25 @@
     padding-top: 250px;
   }
 }
+
+.mb-30px-lg {
+  @media (min-width: 1240px) {
+    margin-bottom: 30px;
+  }
+}
+
+.mb-16px {
+  margin-bottom: 16px;
+}
+
+.mr-50px-lg {
+  @media (min-width: 1240px) {
+    margin-right: 25px;
+  }
+}
+
+.mb-64px-lg {
+  @media (min-width: 1240px) {
+    margin-bottom: 64px;
+  }
+}
