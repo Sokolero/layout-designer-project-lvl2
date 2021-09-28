@@ -1,11 +1,16 @@
+.footer-wrapper {
+  width: 100%;
+  padding-top: 3.5rem;
+  // padding-bottom: 2rem;
+}
+
 .bg-gradient {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
   background-size: cover;
 }
 
-.footer-wrap {
-  padding-top: 3.5rem;
-  padding-bottom: 2rem;
+.footer-grid {
+
   @media (min-width: 1240px) {
     display: grid;
     grid-gap: 40px;
@@ -61,13 +66,11 @@
   }
 }
 
-.footer-menu {
-  @include reset;
+.footer-menu-wrapper {
   border-top: 1px solid $grey;
-  margin-right: -20px;
-  margin-left: -20px;
-  padding-left: 20px;
+  width: 100%;
   padding-top: 40px;
+  padding-bottom: 50px;
   &-item {
     margin-bottom: 14px;
   }
@@ -78,6 +81,17 @@
     }
   }
 }
+
+.footer-menu {
+  a {
+    text-decoration: none;
+    color: $grey;
+  }
+  &-item {
+    margin-right: 16px;
+  }
+}
+
 
 .mr-19px {
   margin-right: 19px;
