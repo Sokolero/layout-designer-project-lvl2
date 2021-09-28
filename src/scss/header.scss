@@ -2,6 +2,9 @@
   position: absolute;
   top: 25px;
   width: 100%;
+  @media (min-width: 1240px) {
+    padding: 0 20px;
+  }
 }
 
 .logo-img {
@@ -11,7 +14,7 @@
 }
 
 .logo-text {
-  flex: 1 0 80%;
+  display: inline-block;
   @include caps-bold-text;
   @include font-11px;
   @media (min-width: 1240px) {
@@ -23,7 +26,7 @@
 
 .nav {
   display: flex;
-  flex: 1 0 30%;
+  flex-direction: column;
   @include caps-bold-text;
   @include font-11px;
   a {
@@ -38,12 +41,12 @@
   }
   .nav-list-item {
     @media (min-width: 1240px) {
-      display: inline-block;
+      display: block;
       margin-right: 24px;
     }
   }
   @media (min-width: 1240px) {
-
+    flex-direction: row;
   }
 }
 

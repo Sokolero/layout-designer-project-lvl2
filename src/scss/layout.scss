@@ -63,8 +63,18 @@
   margin-bottom: 78px;
 }
 
-.py-200px {
-  padding: 200px 0;
+.py-200px-lg {
+  @media (min-width: 1240px) {
+      padding: 200px 0;
+  }
+}
+
+.pt-250px {
+  padding-top: 250px;
+}
+
+.pb-200px {
+  padding-bottom: 200px;
 }
 
 .pt-100px {

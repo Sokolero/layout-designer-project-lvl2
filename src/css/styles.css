@@ -164,8 +164,18 @@ h4 {
   margin-bottom: 78px;
 }
 
-.py-200px {
-  padding: 200px 0;
+@media (min-width: 1240px) {
+  .py-200px-lg {
+    padding: 200px 0;
+  }
+}
+
+.pt-250px {
+  padding-top: 250px;
+}
+
+.pb-200px {
+  padding-bottom: 200px;
 }
 
 .pt-100px {
@@ -189,6 +199,11 @@ h4 {
   top: 25px;
   width: 100%;
 }
+@media (min-width: 1240px) {
+  .header {
+    padding: 0 20px;
+  }
+}
 
 .logo-img {
   width: 24px;
@@ -197,7 +212,7 @@ h4 {
 }
 
 .logo-text {
-  flex: 1 0 80%;
+  display: inline-block;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 11px;
@@ -214,7 +229,7 @@ h4 {
 
 .nav {
   display: flex;
-  flex: 1 0 30%;
+  flex-direction: column;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 11px;
@@ -234,10 +249,16 @@ h4 {
 }
 @media (min-width: 1240px) {
   .nav .nav-list-item {
-    display: inline-block;
+    display: block;
     margin-right: 24px;
   }
 }
+@media (min-width: 1240px) {
+  .nav {
+    flex-direction: row;
+  }
+}
+
 .search-box {
   width: 100%;
 }
@@ -310,11 +331,11 @@ h4 {
 .news-btn, .btn {
   display: inline-block;
   width: 100%;
-  padding-top: 21px;
-  padding-bottom: 21px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border: none;
   border-radius: 5px;
-  font-weight: 400px;
+  font-weight: 400;
   font-family: Arial, sans-serif;
   font-size: 13.3px;
   line-height: 15.29px;
@@ -844,6 +865,22 @@ h4 {
 
 .lh-main {
   line-height: 1.5;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+@media (min-width: 1240px) {
+  .d-none-lg {
+    display: none;
+  }
+}
+
+@media (min-width: 1240px) {
+  .pt-250px-lg {
+    padding-top: 250px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
