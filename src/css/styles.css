@@ -106,7 +106,7 @@ h4 {
 @media (min-width: 1240px) {
   .container {
     max-width: 1200px;
-    margin: 0 20px;
+    margin: 0 auto;
     padding: 0;
   }
 }
@@ -132,18 +132,6 @@ h4 {
   flex-direction: column;
 }
 
-@media (min-width: 1240px) {
-  .dir-row-1240 {
-    flex-direction: row;
-  }
-}
-
-@media (min-width: 1240px) {
-  .dir-row-reverse-1240 {
-    flex-direction: row-reverse;
-  }
-}
-
 .text-center {
   text-align: center;
 }
@@ -162,12 +150,6 @@ h4 {
 
 .mb-78px {
   margin-bottom: 78px;
-}
-
-@media (min-width: 1240px) {
-  .py-200px-lg {
-    padding: 200px 0;
-  }
 }
 
 .pt-250px {
@@ -192,6 +174,24 @@ h4 {
 
 .mb-16px {
   margin-bottom: 16px;
+}
+
+@media (min-width: 1240px) {
+  .pt-200px-lg {
+    padding-top: 200px;
+  }
+}
+
+@media (min-width: 1240px) {
+  .dir-row-1240 {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1240px) {
+  .dir-row-reverse-1240 {
+    flex-direction: row-reverse;
+  }
 }
 
 .header {
@@ -859,8 +859,10 @@ h4 {
   }
 }
 
-.fs-30px {
-  font-size: 30px;
+@media (min-width: 1240px) {
+  .fs-30px-lg {
+    font-size: 30px;
+  }
 }
 
 .lh-main {

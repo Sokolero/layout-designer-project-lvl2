@@ -39,8 +39,10 @@
 @include mb-lg(31px);
 @include mb-lg(0px);
 
-.fs-30px {
-  font-size: 30px;
+.fs-30px-lg {
+  @media (min-width: 1240px) {
+    font-size: 30px;
+  }
 }
 
 .lh-main {
