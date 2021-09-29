@@ -653,15 +653,16 @@ h4 {
   margin-right: 19px;
 }
 
-.artist-banner {
+.artist-banner-wrapper {
   background-image: url("../images/Morten-Harket.png");
   background-position: center;
   background-size: cover;
 }
+
 .artist-banner-btn {
   padding: 20px 30px;
   font-size: 12.8px;
-  line-height: 19.2px;
+  line-height: 1;
   margin-right: 1.5rem;
   margin-bottom: 24px;
   width: 200px;
@@ -676,7 +677,7 @@ h4 {
   }
 }
 
-.btn-wrap {
+.btn-flex {
   display: flex;
   align-items: center;
 }
@@ -730,6 +731,9 @@ h4 {
 }
 .tracks-item-description {
   flex: 1 1 auto;
+}
+.tracks-item-author {
+  margin: 0;
 }
 .tracks-item-time {
   width: auto;

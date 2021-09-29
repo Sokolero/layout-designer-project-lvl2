@@ -7,63 +7,59 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="flex-100 wrap align-items-center">
-          <img class="logo-img" src="images/logo.svg" alt="logo">
-          <span class="logo-text">
-            Music box
-          </span>
-          <nav class="nav">
-            <ul class="nav-list">
-              <li class="nav-list-item">Главная</li>
-              <li class="nav-list-item">Каталог</li>
-              <li class="nav-list-item">Исполнители</li>
-              <li class="nav-list-item">Контакты</li>
-            </ul>
-          </nav>
-          <div class="search-box">
-            <input class="search-box-input text-uppercase pl-5px" type="text" name="search" value="" placeholder="поиск...">
+
+    <div class="header-wrapper">
+      <header class="header container">
+          <div class="flex-100 wrap align-items-center">
+            <img class="logo-img mb-17px mb-0px-lg" src="images/logo.svg" alt="logo">
+            <span class="logo-text mb-17px mb-0px-lg">
+              Music box
+            </span>
+            <div class="w-100 d-none-lg"></div>
+            <nav class="nav text-grey mb-15px mb-0px-lg">
+              <a class="nav-list-item mb-3px text-white" href="#">Главная</a>
+              <a class="nav-list-item mb-3px text-grey" href="#">Каталог</a>
+              <a class="nav-list-item mb-3px text-grey" href="#">Исполнители</a>
+              <a class="nav-list-item mb-3px text-grey" href="#">Контакты</a>
+            </nav>
+            <div class="search-box flex-100">
+              <input class="search-box-input text-uppercase pl-5px" type="text" name="search" value="" placeholder="поиск...">
+            </div>
           </div>
-        </div>
-      </div>
-    </header>
+      </header>
+    </div>
 
-    <section class="artist-banner pt-200px pb-200px" id="page-description">
-      <div class="container">
-        <h1 class="artist-title mb-16px">Morten Harken</h1>
-        <div class="artist-fans mb-48px-69px">
+    <div class="artist-banner-wrapper">
+      <section class="artist-banner container pt-200px pb-200px" id="page-description">
+        <h1 class="artist-title mt-50px mb-16px">Morten Harken</h1>
+        <p class="artist-fans mb-48px-69px">
           24 875 поклонников
-        </div>
+        </p>
         <div class="artist-btns flex-100">
-          <button class="btn artist-banner-btn bg-purple" type="button" name="button">
-            <div class="btn-wrap">
+          <button class="btn artist-banner-btn btn-flex bg-purple" type="button" name="button">
               <img class="btn-icon" src="images/play-button.svg" alt="">
-              <span>Микс</span>
-            </div>
+              Микс
           </button>
-          <button class="btn artist-banner-btn bg-red" type="button" name="button">
-            <div class="btn-wrap">
+          <button class="btn artist-banner-btn btn-flex bg-red" type="button" name="button">
               <img class="btn-icon" src="images/heart.svg" alt="">
-              <span>В избранное</span>
-            </div>
+              В избранное
           </button>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
-    <section class="tracks" id="page-popular-track">
-      <div class="container">
+    <section class="tracks">
+      <div class="container" id="page-popular-track">
         <h2 class="tracks-title">Популярные треки</h2>
         <div class="tracks-item">
           <img class="tracks-item-image" src="images/Wild-Seed.png" alt="">
           <div class="tracks-item-description">
-            <div class="tracks-item-name text-small">
+            <h3 class="tracks-item-name text-small">
               Spanish Step
-            </div>
-            <div class="tracks-item-author text-small">
+            </h3>
+            <p class="tracks-item-author text-small">
               Morten Harket
-            </div>
+            </p>
           </div>
           <div class="tracks-item-time">
             4:07
@@ -72,12 +68,12 @@
         <div class="tracks-item">
           <img class="tracks-item-image" src="images/Letter-from-Egypt.png" alt="">
           <div class="tracks-item-description">
-            <div class="tracks-item-name text-small">
+            <h3 class="tracks-item-name text-small">
               With You - With Me
-            </div>
-            <div class="tracks-item-author text-small">
+            </h3>
+            <p class="tracks-item-author text-small">
               Morten Harket
-            </div>
+            </p>
           </div>
           <div class="tracks-item-time">
             3:48
@@ -86,12 +82,12 @@
         <div class="tracks-item">
           <img class="tracks-item-image" src="images/Brother.png" alt="">
           <div class="tracks-item-description">
-            <div class="tracks-item-name text-small">
+            <h3 class="tracks-item-name text-small">
               Brother
-            </div>
-            <div class="tracks-item-author text-small">
+            </h3>
+            <p class="tracks-item-author text-small">
               Morten Harket
-            </div>
+            </p>
           </div>
           <div class="tracks-item-time">
             5:05
@@ -100,12 +96,12 @@
         <div class="tracks-item">
           <img class="tracks-item-image" src="images/Wild-Seed.png" alt="">
           <div class="tracks-item-description">
-            <div class="tracks-item-name text-small">
+            <h3 class="tracks-item-name text-small">
               Brodsky Tune
-            </div>
-            <div class="tracks-item-author text-small">
+            </h3>
+            <p class="tracks-item-author text-small">
               Morten Harket
-            </div>
+            </p>
           </div>
           <div class="tracks-item-time">
             4:24
@@ -114,12 +110,12 @@
         <div class="tracks-item">
           <img class="tracks-item-image" src="images/Letter-from-Egypt.png" alt="">
           <div class="tracks-item-description">
-            <div class="tracks-item-name text-small">
+            <h3 class="tracks-item-name text-small">
               Darkspace
-            </div>
-            <div class="tracks-item-author text-small">
+            </h3>
+            <p class="tracks-item-author text-small">
               Morten Harket
-            </div>
+            </p>
           </div>
           <div class="tracks-item-time">
             3:45
@@ -128,12 +124,12 @@
         <div class="tracks-item">
           <img class="tracks-item-image" src="images/Out-of-My-Hands.png" alt="">
           <div class="tracks-item-description">
-            <div class="tracks-item-name text-small">
+            <h3 class="tracks-item-name text-small">
               Burn Money Burn
-            </div>
-            <div class="tracks-item-author text-small">
+            </h3>
+            <p class="tracks-item-author text-small">
               Morten Harket
-            </div>
+            </p>
           </div>
           <div class="tracks-item-time">
             3:52
