@@ -1,11 +1,20 @@
 .tracks {
-  padding-top: 100px;
+  width: 100%;
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
   &-title {
     margin-bottom: 48px;
   }
   &-item {
     display: flex;
+    width: 550px;
+    height: 55px;
     margin-bottom: 25px;
+    @media (min-width: 1240px) {
+      margin-right: 50px;
+    }
     &-image {
       width: 55px;
       height: auto;
@@ -16,13 +25,26 @@
       text-transform: uppercase;
     }
     &-description {
-      flex: 1 1 auto;
+      flex: 0 0 auto;
     }
     &-author {
       margin: 0;
     }
     &-time {
       width: auto;
+      margin-left: auto;
     }
   }
+  @media (min-width: 1240px) {
+
+  }
+}
+
+.tracks-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pt-100px {
+  padding-top: 100px;
 }

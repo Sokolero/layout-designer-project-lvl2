@@ -711,14 +711,25 @@ h4 {
 }
 
 .tracks {
-  padding-top: 100px;
+  width: 100%;
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
 }
 .tracks-title {
   margin-bottom: 48px;
 }
 .tracks-item {
   display: flex;
+  width: 550px;
+  height: 55px;
   margin-bottom: 25px;
+}
+@media (min-width: 1240px) {
+  .tracks-item {
+    margin-right: 50px;
+  }
 }
 .tracks-item-image {
   width: 55px;
@@ -730,13 +741,22 @@ h4 {
   text-transform: uppercase;
 }
 .tracks-item-description {
-  flex: 1 1 auto;
+  flex: 0 0 auto;
 }
 .tracks-item-author {
   margin: 0;
 }
 .tracks-item-time {
   width: auto;
+  margin-left: auto;
+}
+.tracks-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pt-100px {
+  padding-top: 100px;
 }
 
 .discography {
