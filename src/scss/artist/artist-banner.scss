@@ -4,6 +4,11 @@
   background-size: cover;
 }
 
+.artist-fans {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 
 .artist-banner {
   &-btn {
@@ -48,9 +53,6 @@
   background: $purple;
 }
 
-.mb-48px-69px {
+.mb-48px {
   margin-bottom: 48px;
-  @media (min-width: 1240px) {
-    margin-bottom: 69px;
-  }
 }

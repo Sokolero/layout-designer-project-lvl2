@@ -10,7 +10,7 @@
 .similar-item {
   width: 137px;
   margin-right: 50px;
-  margin-top: 25px;
+  margin-top: 23px;
   text-align: center;
   @media (min-width: 1240px) {
     width: 250px;
@@ -18,10 +18,17 @@
   &-image {
     width: 100%;
     height: auto;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
   }
   &-title {
     text-transform: capitalize;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  &-fans {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
   }
 }

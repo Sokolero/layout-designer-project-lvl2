@@ -53,6 +53,10 @@
   width: 100%;
 }
 
+.mb-16px {
+  margin-bottom: 16px;
+}
+
 .d-none-lg {
   @media (min-width: 1240px) {
     display: none;
@@ -71,13 +75,9 @@
   }
 }
 
-.mb-16px {
-  margin-bottom: 16px;
-}
-
 .mr-50px-lg {
   @media (min-width: 1240px) {
-    margin-right: 25px;
+    margin-right: 50px;
   }
 }
 

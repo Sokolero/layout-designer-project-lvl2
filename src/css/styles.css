@@ -395,7 +395,7 @@ h4 {
   flex-direction: column;
   width: 100%;
   max-width: 374px;
-  padding-top: 19px;
+  padding-top: 24px;
   padding-bottom: 64px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -474,6 +474,7 @@ h4 {
   font-size: 12.8px;
   line-height: 19.2px;
   text-align: center;
+  margin: 0;
 }
 
 .text-align-center {
@@ -696,6 +697,11 @@ h4 {
   background-size: cover;
 }
 
+.artist-fans {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 .artist-banner-btn {
   padding: 20px 30px;
   font-size: 12.8px;
@@ -738,13 +744,8 @@ h4 {
   background: #5328A1;
 }
 
-.mb-48px-69px {
+.mb-48px {
   margin-bottom: 48px;
-}
-@media (min-width: 1240px) {
-  .mb-48px-69px {
-    margin-bottom: 69px;
-  }
 }
 
 .tracks-title {
@@ -815,7 +816,7 @@ h4 {
 .discography-item-image {
   width: 137px;
   height: 137px;
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
 }
 @media (min-width: 1240px) {
   .discography-item-image {
@@ -844,7 +845,7 @@ h4 {
 .similar-item {
   width: 137px;
   margin-right: 50px;
-  margin-top: 25px;
+  margin-top: 23px;
   text-align: center;
 }
 @media (min-width: 1240px) {
@@ -855,11 +856,18 @@ h4 {
 .similar-item-image {
   width: 100%;
   height: auto;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 .similar-item-title {
   text-transform: capitalize;
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+}
+.similar-item-fans {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .m-0 {
@@ -957,6 +965,10 @@ h4 {
   width: 100%;
 }
 
+.mb-16px {
+  margin-bottom: 16px;
+}
+
 @media (min-width: 1240px) {
   .d-none-lg {
     display: none;
@@ -975,13 +987,9 @@ h4 {
   }
 }
 
-.mb-16px {
-  margin-bottom: 16px;
-}
-
 @media (min-width: 1240px) {
   .mr-50px-lg {
-    margin-right: 25px;
+    margin-right: 50px;
   }
 }
 
