@@ -6,6 +6,30 @@
   margin-right: auto;
 }
 
+.mb--25px {
+  margin-bottom: -25px;
+}
+
+.mb-100px {
+  margin-bottom: 100px;
+}
+
+.mb-25px {
+  margin-bottom: 25px;
+}
+
+.mb-0-lg {
+  @media (min-width: 1240px) {
+    margin-bottom: 0;
+  }
+}
+
+.m-0-lg {
+  @media (min-width: 1240px) {
+    margin: 0;
+  }
+}
+
 .m-0 {
   margin: 0;
 }

@@ -2,23 +2,30 @@
   padding-top: 100px;
 
   &-title {
-    margin-bottom: 48px;
+    margin-bottom: 23px;
   }
 }
 
 .discography-item {
   width: 137px;
-  margin-bottom: 25px;
+  margin-top: 25px;
   margin-right: 50px;
+  @media (min-width: 1240px) {
+    width: 250px;
+  }
 
   &-image {
     width: 137px;
     height: 137px;
     margin-bottom: 1rem;
+    @media (min-width: 1240px) {
+      width: 250px;
+      height: 250px;
+    }
   }
 
   &-title {
-    width: 138px;
+    width: 100%;
     text-transform: capitalize;
     font-weight: 700;
     line-height: 27px;

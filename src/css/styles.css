@@ -108,6 +108,30 @@ h4 {
   margin-right: auto;
 }
 
+.mb--25px {
+  margin-bottom: -25px;
+}
+
+.mb-100px {
+  margin-bottom: 100px;
+}
+
+.mb-25px {
+  margin-bottom: 25px;
+}
+
+@media (min-width: 1240px) {
+  .mb-0-lg {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1240px) {
+  .m-0-lg {
+    margin: 0;
+  }
+}
+
 .m-0 {
   margin: 0;
 }
@@ -475,6 +499,7 @@ h4 {
   .news-image {
     flex: 0 0 575px;
     height: auto;
+    margin: 0;
   }
 }
 
@@ -714,7 +739,6 @@ h4 {
   align-items: center;
   width: 550px;
   height: 55px;
-  margin-bottom: 25px;
 }
 @media (min-width: 1240px) {
   .tracks-item {
@@ -760,21 +784,32 @@ h4 {
   padding-top: 100px;
 }
 .discography-title {
-  margin-bottom: 48px;
+  margin-bottom: 23px;
 }
 
 .discography-item {
   width: 137px;
-  margin-bottom: 25px;
+  margin-top: 25px;
   margin-right: 50px;
+}
+@media (min-width: 1240px) {
+  .discography-item {
+    width: 250px;
+  }
 }
 .discography-item-image {
   width: 137px;
   height: 137px;
   margin-bottom: 1rem;
 }
+@media (min-width: 1240px) {
+  .discography-item-image {
+    width: 250px;
+    height: 250px;
+  }
+}
 .discography-item-title {
-  width: 138px;
+  width: 100%;
   text-transform: capitalize;
   font-weight: 700;
   line-height: 27px;
@@ -788,14 +823,19 @@ h4 {
   margin-bottom: 100px;
 }
 .similar-title {
-  margin-bottom: 48px;
+  margin-bottom: 23px;
 }
 
 .similar-item {
   width: 137px;
   margin-right: 50px;
-  margin-bottom: 25px;
+  margin-top: 25px;
   text-align: center;
+}
+@media (min-width: 1240px) {
+  .similar-item {
+    width: 250px;
+  }
 }
 .similar-item-image {
   width: 100%;
