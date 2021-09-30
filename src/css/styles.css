@@ -108,6 +108,22 @@ h4 {
   margin-right: auto;
 }
 
+@media (min-width: 1240px) {
+  .mb-65-lg {
+    margin-bottom: 65px;
+  }
+}
+
+.mt-50px {
+  margin-top: 50px;
+}
+
+@media (min-width: 1240px) {
+  .mt-0-lg {
+    margin-top: 0;
+  }
+}
+
 .mb--25px {
   margin-bottom: -25px;
 }
@@ -308,7 +324,7 @@ h4 {
 }
 
 .banner h1 {
-  marign-top: 50px;
+  margin-top: 50px;
 }
 @media (min-width: 1240px) {
   .banner h1 {
@@ -737,12 +753,11 @@ h4 {
 .tracks-item {
   display: flex;
   align-items: center;
-  width: 550px;
   height: 55px;
 }
 @media (min-width: 1240px) {
   .tracks-item {
-    margin-right: 50px;
+    margin-right: 49px;
   }
 }
 .tracks-item-image {
@@ -755,17 +770,22 @@ h4 {
   text-transform: uppercase;
 }
 .tracks-item-description {
-  display: flex;
-  align-items: center;
-  flex: 0 0 auto;
+  width: 294px;
+}
+@media (min-width: 1240px) {
+  .tracks-item-description {
+    width: 456px;
+  }
 }
 .tracks-item-author {
   margin: 0;
 }
 .tracks-item-time {
-  width: auto;
+  font-size: 12.8px;
+  line-height: 1.5;
   margin-left: auto;
 }
+
 .tracks-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -773,11 +793,6 @@ h4 {
 
 .pt-100px {
   padding-top: 100px;
-}
-
-.tracks-item-description {
-  display: flex;
-  align-items: center;
 }
 
 .discography {

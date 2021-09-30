@@ -5,10 +5,9 @@
   &-item {
     display: flex;
     align-items: center;
-    width: 550px;
     height: 55px;
     @media (min-width: 1240px) {
-      margin-right: 50px;
+      margin-right: 49px;
     }
     &-image {
       width: 55px;
@@ -20,20 +19,23 @@
       text-transform: uppercase;
     }
     &-description {
-      display: flex;
-      align-items: center;
-      flex: 0 0 auto;
+      width: 294px;
+      @media (min-width: 1240px) {
+        width: 456px;
+      }
+      // display: flex;
+      // align-items: center;
+      // flex: 0 0 auto;
     }
     &-author {
       margin: 0;
     }
     &-time {
-      width: auto;
+      font-size: 12.8px;
+      line-height: 1.5;
+      // width: auto;
       margin-left: auto;
     }
-  }
-  @media (min-width: 1240px) {
-
   }
 }
 
@@ -46,7 +48,7 @@
   padding-top: 100px;
 }
 
-.tracks-item-description {
-  display: flex;
-  align-items: center;
-}
+// .tracks-item-description {
+//   display: flex;
+//   align-items: center;
+// }
