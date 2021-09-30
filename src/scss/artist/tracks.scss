@@ -1,14 +1,10 @@
 .tracks {
-  width: 100%;
-  max-width: 1240px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
   &-title {
     margin-bottom: 48px;
   }
   &-item {
     display: flex;
+    align-items: center;
     width: 550px;
     height: 55px;
     margin-bottom: 25px;
@@ -25,6 +21,8 @@
       text-transform: uppercase;
     }
     &-description {
+      display: flex;
+      align-items: center;
       flex: 0 0 auto;
     }
     &-author {
@@ -47,4 +45,9 @@
 
 .pt-100px {
   padding-top: 100px;
+}
+
+.tracks-item-description {
+  display: flex;
+  align-items: center;
 }
