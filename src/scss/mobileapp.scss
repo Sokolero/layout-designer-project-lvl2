@@ -1,14 +1,11 @@
 .mobile-app-image {
+  flex: 0 0 auto;
+  width: 370px;
   height: auto;
   margin-bottom: -18px;
   @media (min-width: 1240px) {
     width: 333px;
   }
-}
-
-.mobile-app-image-box {
-  flex: 1 1 50%;
-  text-align: center;
 }
 
 .mobile-app-body {
@@ -29,4 +26,10 @@
 
 .pb-100px {
   padding-bottom: 100px;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }

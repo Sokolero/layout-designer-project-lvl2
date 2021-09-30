@@ -124,6 +124,10 @@ h4 {
   }
 }
 
+.mt-0 {
+  margin-top: 0;
+}
+
 .mb--25px {
   margin-bottom: -25px;
 }
@@ -395,12 +399,17 @@ h4 {
   flex-direction: column;
   width: 100%;
   max-width: 374px;
-  padding-top: 24px;
+  padding-top: 16px;
   padding-bottom: 64px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 1rem;
-  margin-bottom: 54px;
+  margin-bottom: 50px;
+}
+@media (min-width: 1240px) {
+  .pricing-card {
+    padding-top: 24px;
+  }
 }
 .pricing-card h3 {
   font-weight: 400;
@@ -451,6 +460,9 @@ h4 {
   text-transform: uppercase;
 }
 
+.pricing-resume {
+  margin: 0;
+}
 @media (min-width: 1240px) {
   .pricing-resume {
     margin-top: 43px;
@@ -510,7 +522,7 @@ h4 {
 
 .news-image {
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 @media (min-width: 1240px) {
   .news-image {
@@ -565,6 +577,8 @@ h4 {
 }
 
 .mobile-app-image {
+  flex: 0 0 auto;
+  width: 370px;
   height: auto;
   margin-bottom: -18px;
 }
@@ -572,11 +586,6 @@ h4 {
   .mobile-app-image {
     width: 333px;
   }
-}
-
-.mobile-app-image-box {
-  flex: 1 1 50%;
-  text-align: center;
 }
 
 .mobile-app-body {
@@ -598,6 +607,12 @@ h4 {
 
 .pb-100px {
   padding-bottom: 100px;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .footer-wrapper {
