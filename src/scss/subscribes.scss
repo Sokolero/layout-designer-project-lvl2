@@ -3,6 +3,7 @@
   width: 100%;
   height: auto;
   padding-top: 14px;
+  margin-top: 50px;
   @media (min-width: 1240px) {
     padding-top: 24px;
     max-width: 369px;
@@ -29,6 +30,7 @@
 
 .pricing-card:last-child {
   margin-right: 0;
+
 }
 
 @include bg-card("subscribe_1.png", 1);
