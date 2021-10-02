@@ -1,8 +1,8 @@
 .mobile-app-image {
   flex: 0 0 auto;
-  width: 100%;
+  width: 333px;
   height: auto;
-  margin-bottom: -18px;
+  margin: 0 auto;
   @media (min-width: 1240px) {
     width: 333px;
     margin-left: 20px;
@@ -45,6 +45,6 @@
   justify-content: flex-start;
 }
 
-.mt-5px {
+.mt-16px {
   margin-top: 5px;
 }
