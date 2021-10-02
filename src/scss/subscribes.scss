@@ -1,15 +1,16 @@
 .pricing-card {
-  max-width: 369px;
-  height: 615px;
-  padding-top: 16px;
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  padding-top: 14px;
   @media (min-width: 1240px) {
     padding-top: 24px;
+    max-width: 369px;
   }
   padding-bottom: 64px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 1rem;
-  margin-bottom: 50px;
 
   h3 {
     font-weight: 400;
@@ -21,7 +22,7 @@
       line-height: 1.5;
     }
     & {
-      margin-right: 50px;
+      margin-right: 47px;
     }
   }
 }
@@ -48,9 +49,10 @@
 }
 
 .pricing-resume {
-  margin: 0;
+  margin-top: 40px;
+  margin-bottom: 0;
   @media (min-width: 1240px) {
-    margin-top: 43px;
+    margin-top: 40px;
   }
 }
 
@@ -91,6 +93,10 @@
 
 .mb-46px {
   margin-bottom: 46px;
+}
+
+.mb-50px {
+  margin-bottom: 50px;
 }
 
 .w-100 {

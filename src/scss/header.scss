@@ -24,19 +24,15 @@
 .nav {
   display: flex;
   flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0;
   @include caps-bold-text;
   @include font-11px;
   a {
     text-decoration: none;
   }
-  .nav-list {
-    list-style-type: none;
-    padding: 0;
-    @media (min-width: 1240px) {
-      display: flex;
-    }
-  }
-  .nav-list-item {
+  .nav-item {
     @media (min-width: 1240px) {
       display: block;
       margin-right: 24px;
@@ -44,6 +40,12 @@
   }
   @media (min-width: 1240px) {
     flex-direction: row;
+  }
+  .nav-item {
+    margin-bottom: 3px;
+    @media (min-width: 1240px) {
+      margin-bottom: 0;
+    }
   }
 }
 
