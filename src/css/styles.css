@@ -745,6 +745,15 @@ h4 {
   line-height: 1.5;
 }
 
+.artist-title {
+  margin-top: 25px;
+}
+@media (min-width: 1240px) {
+  .artist-title {
+    margin-top: 50px;
+  }
+}
+
 .artist-banner-btn {
   padding: 20px 30px;
   font-size: 12.8px;
@@ -789,10 +798,6 @@ h4 {
 
 .mb-48px {
   margin-bottom: 48px;
-}
-
-.mt-25px {
-  margin-top: 25px;
 }
 
 .tracks-wrapper {
@@ -852,6 +857,10 @@ h4 {
   }
 }
 
+.mb-24px {
+  margin-bottom: 24px;
+}
+
 .discography {
   padding-top: 100px;
 }
@@ -901,7 +910,7 @@ h4 {
 .similar-item {
   width: 137px;
   margin-right: 50px;
-  margin-top: 23px;
+  margin-top: 25px;
   text-align: center;
 }
 @media (min-width: 1240px) {
@@ -912,7 +921,7 @@ h4 {
 .similar-item-image {
   width: 100%;
   height: auto;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 .similar-item-title {
   text-transform: capitalize;
