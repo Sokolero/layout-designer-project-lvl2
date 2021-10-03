@@ -3,10 +3,6 @@
   width: 333px;
   height: auto;
   margin: 0 auto;
-  @media (min-width: 1240px) {
-    width: 333px;
-    margin-left: 20px;
-  }
 }
 
 .col {
@@ -47,4 +43,8 @@
 
 .mt-16px {
   margin-top: 16px;
+}
+
+.align-items-center {
+  align-items: center;
 }

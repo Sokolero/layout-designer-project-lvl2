@@ -402,7 +402,7 @@ h4 {
   height: auto;
   padding-top: 14px;
   margin-top: 50px;
-  padding-bottom: 63px;
+  padding-bottom: 64px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 1rem;
@@ -450,6 +450,9 @@ h4 {
   background-size: cover;
 }
 
+.price {
+  margin-bottom: 41px;
+}
 .price-number {
   font-size: 64px;
   line-height: 64px;
@@ -593,12 +596,6 @@ h4 {
   height: auto;
   margin: 0 auto;
 }
-@media (min-width: 1240px) {
-  .mobile-app-image {
-    width: 333px;
-    margin-left: 20px;
-  }
-}
 
 .col {
   width: 100%;
@@ -641,6 +638,10 @@ h4 {
 
 .mt-16px {
   margin-top: 16px;
+}
+
+.align-items-center {
+  align-items: center;
 }
 
 .footer-wrapper {
@@ -989,11 +990,6 @@ h4 {
 
 .ml-25px {
   margin-left: 25px;
-}
-
-.price {
-  margin-top: 0;
-  margint-bottom: 40px;
 }
 
 .text-grey {
