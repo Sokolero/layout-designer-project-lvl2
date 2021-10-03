@@ -728,7 +728,7 @@ h4 {
   border-top: 1px solid #E0E0E0;
   width: 100%;
   padding-top: 40px;
-  padding-bottom: 50px;
+  padding-bottom: 48px;
 }
 .footer-menu-wrapper-item {
   margin-bottom: 14px;
@@ -746,7 +746,9 @@ h4 {
 }
 .footer-menu-item {
   display: block;
-  margin-bottom: 14px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.5;
 }
 @media (min-width: 1240px) {
   .footer-menu-item {
