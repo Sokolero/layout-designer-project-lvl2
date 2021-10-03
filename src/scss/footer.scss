@@ -80,7 +80,6 @@
 
 .social-link {
   width: auto;
-  height: auto;
   vertical-align: middle;
 }
 
@@ -107,7 +106,7 @@
   }
   &-item {
     display: block;
-    margin-bottom: 16px;
+    margin-bottom: 14px;
     @media (min-width: 1240px) {
       display: inline-block;
       margin-bottom: 0;
@@ -116,7 +115,17 @@
   }
 }
 
+.mb-68px-lg {
+  @media (min-width: 1240px) {
+    margin-bottom: 68px;
+  }
+}
 
-.mr-19px {
-  margin-right: 19px;
+.mb-76px {
+  margin-bottom: 76px;
+}
+
+
+.mr-24px {
+  margin-right: 24px;
 }

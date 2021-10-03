@@ -721,7 +721,6 @@ h4 {
 
 .social-link {
   width: auto;
-  height: auto;
   vertical-align: middle;
 }
 
@@ -747,7 +746,7 @@ h4 {
 }
 .footer-menu-item {
   display: block;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 @media (min-width: 1240px) {
   .footer-menu-item {
@@ -757,8 +756,18 @@ h4 {
   }
 }
 
-.mr-19px {
-  margin-right: 19px;
+@media (min-width: 1240px) {
+  .mb-68px-lg {
+    margin-bottom: 68px;
+  }
+}
+
+.mb-76px {
+  margin-bottom: 76px;
+}
+
+.mr-24px {
+  margin-right: 24px;
 }
 
 .artist-banner-wrapper {
