@@ -649,7 +649,7 @@ h4 {
   align-items: center;
 }
 
-.footer-wrapper {
+.footer {
   width: 100%;
   padding-top: 3.5rem;
 }
@@ -820,6 +820,12 @@ h4 {
   .tracks-item {
     width: 551px;
     margin-right: 49px;
+  }
+}
+
+@media (min-width: 1240px) {
+  .tracks-item-name {
+    font-weight: 700;
   }
 }
 

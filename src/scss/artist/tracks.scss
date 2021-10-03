@@ -46,6 +46,12 @@
   }
 }
 
+.tracks-item-name {
+  @media (min-width: 1240px) {
+    font-weight: 700;
+  }
+}
+
 .tracks-item-image {
   width: 55px;
   height: auto;
