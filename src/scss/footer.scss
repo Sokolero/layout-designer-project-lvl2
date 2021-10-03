@@ -115,6 +115,9 @@
       margin-right: 16px;
     }
   }
+  &-item:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .mb-68px-lg {
