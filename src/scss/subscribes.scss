@@ -8,9 +8,9 @@
     padding-top: 24px;
     max-width: 368px;
   }
-  padding-bottom: 64px;
-  padding-left: 27px;
-  padding-right: 27px;
+  padding-bottom: 63px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   border-radius: 1rem;
 
   h3 {
@@ -54,21 +54,19 @@
   margin-top: 40px;
   margin-bottom: 0;
   @media (min-width: 1240px) {
-    margin-top: 39px;
+    margin-top: 38px;
   }
 }
 
-.price-btn-wrap {
-  height: 66px;
-  .price-btn {
-    display: inline-block;
-    font-size: 16px;
-    line-height: 1.5;
-    border: 1px solid #fff;
-    text-decoration: none;
-    text-align: center;
-    background: none;
-  }
+
+.price-btn {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.5;
+  border: 1px solid #fff;
+  text-decoration: none;
+  text-align: center;
+  background: none;
 }
 
 .price-description {
@@ -89,8 +87,17 @@
   margin-bottom: 40px;
 }
 
+.mb-39px {
+  margin-bottom: 39px;
+}
+
+
 .mb-64px {
   margin-bottom: 64px;
+}
+
+.mb-63px {
+  margin-bottom: 63px;
 }
 
 .mb-46px {
