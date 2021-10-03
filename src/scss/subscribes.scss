@@ -39,6 +39,9 @@
 
 .price {
   margin-bottom: 41px;
+  @media (min-width: 1240px) {
+    margin-bottom: 40px;
+  }
   &-number {
     font-size: 64px;
     line-height: 64px;

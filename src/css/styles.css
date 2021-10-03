@@ -453,6 +453,11 @@ h4 {
 .price {
   margin-bottom: 41px;
 }
+@media (min-width: 1240px) {
+  .price {
+    margin-bottom: 40px;
+  }
+}
 .price-number {
   font-size: 64px;
   line-height: 64px;
@@ -894,6 +899,7 @@ h4 {
   width: 100%;
   text-transform: capitalize;
   font-weight: 700;
+  font-size: 18px;
   line-height: 27px;
 }
 .discography-item-year {
@@ -925,6 +931,7 @@ h4 {
   margin-bottom: 10px;
 }
 .similar-item-title {
+  width: 100%;
   text-transform: capitalize;
   font-weight: 700;
   font-size: 18px;
