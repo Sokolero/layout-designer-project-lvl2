@@ -708,8 +708,21 @@ h4 {
   font-size: 18px;
   line-height: 27px;
 }
-.footer-block li {
-  margin-right: 19px;
+@media (min-width: 1240px) {
+  .footer-block li {
+    margin-right: 19px;
+  }
+}
+
+.social-icons {
+  display: flex;
+  height: 20px;
+}
+
+.social-link {
+  width: auto;
+  height: auto;
+  vertical-align: middle;
 }
 
 .footer-menu-wrapper {
@@ -733,7 +746,15 @@ h4 {
   color: #E0E0E0;
 }
 .footer-menu-item {
-  margin-right: 16px;
+  display: block;
+  margin-bottom: 16px;
+}
+@media (min-width: 1240px) {
+  .footer-menu-item {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 16px;
+  }
 }
 
 .mr-19px {
