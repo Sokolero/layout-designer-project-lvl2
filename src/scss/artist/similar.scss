@@ -1,6 +1,6 @@
 .similar {
-  padding-top: 100px;
   margin-bottom: 100px;
+  padding-top: 100px;
 
   &-title {
     margin-bottom: 23px;
@@ -9,26 +9,33 @@
 
 .similar-item {
   width: 137px;
-  margin-right: 50px;
   margin-top: 25px;
+  margin-right: 50px;
+
   text-align: center;
+
   @media (min-width: 1240px) {
     width: 250px;
   }
+
   &-image {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
   }
+
   &-title {
     width: 100%;
-    text-transform: capitalize;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 27px;
+    text-transform: capitalize;
   }
+
   &-fans {
     margin: 0;
+
     font-size: 16px;
     line-height: 1.5;
   }

@@ -11,25 +11,27 @@
 
 .artist-title {
   margin-top: 25px;
+
   @media (min-width: 1240px) {
     margin-top: 50px;
   }
 }
 
-
 .artist-banner {
   &-btn {
-    padding: 20px 30px;
-    font-size: 12.8px;
-    line-height: 1.0;
+    width: 200px;
     margin-right: 1.5rem;
     margin-bottom: 24px;
-    width: 200px;
+    padding: 20px 30px;
+
+    font-size: 12.8px;
+    line-height: 1;
   }
 }
 
 .artist-btns {
   flex-direction: column;
+
   @media (min-width: 1240px) {
     flex-direction: row;
   }
@@ -40,11 +42,11 @@
   align-items: center;
 }
 
-
 .btn-icon {
   width: 20px;
   height: 20px;
   margin-right: 16px;
+
   filter: invert(100%);
 }
 

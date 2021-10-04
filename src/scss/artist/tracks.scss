@@ -1,36 +1,3 @@
-// .tracks {
-//   &-item {
-//     display: block;
-//     height: 55px;
-//     @media (min-width: 1240px) {
-//       margin-right: 49px;
-//     }
-//     &-image {
-//       width: 55px;
-//       height: auto;
-//       margin-right: 15px;
-//     }
-//     &-name {
-//       font-weight: 700;
-//       text-transform: uppercase;
-//     }
-//     &-description {
-//       @media (min-width: 1240px) {
-//         width: 456px;
-//       }
-//     }
-//     &-author {
-//       margin: 0;
-//     }
-//     &-time {
-//       font-size: 12.8px;
-//       line-height: 1.5;
-//       // width: auto;
-//       margin-left: auto;
-//     }
-//   }
-// }
-
 .tracks-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -38,8 +5,9 @@
 
 .tracks-item {
   display: flex;
-  height: 55px;
   width: 100%;
+  height: 55px;
+
   @media (min-width: 1240px) {
     width: 551px;
     margin-right: 49px;
@@ -62,18 +30,19 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+
   .tracks-item-author {
     margin: 0;
   }
-
 }
 
 .tracks-item-time {
   display: flex;
   align-items: center;
   width: auto;
-  margin-left: auto;
   margin-right: 0;
+  margin-left: auto;
+
   font-weight: 400;
   font-size: 12.8px;
   line-height: 1.5;
@@ -95,5 +64,4 @@
 
 .mb-24px {
   margin-bottom: 24px;
-
 }
