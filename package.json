@@ -1,22 +1,21 @@
 {
-  "name": "layout-designer-project-lvl2",
-  "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/Sokolero/layout-designer-project-lvl2/workflows/hexlet-check/badge.svg)](https://github.com/Sokolero/layout-designer-project-lvl2/actions)",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "html5-css-boilerplate",
+  "version": "0.1.0",
+  "description": "HTML5/CSS Boilerplate with HTMLHint and StyleLint",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sokolero/layout-designer-project-lvl2.git"
+    "url": "https://github.com/hexlet-boilerplates/html-boilerplate.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sokolero/layout-designer-project-lvl2/issues"
-  },
-  "homepage": "https://github.com/Sokolero/layout-designer-project-lvl2#readme",
+  "main": "",
+  "dependencies": {},
   "devDependencies": {
-    "sass": "^1.41.1"
-  }
+    "htmlhint": "^0.14.2",
+    "stylelint": "^13.8.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0",
+    "surge": "^0.21.7"
+  },
+  "author": "Nikita Mikhaylov",
+  "license": "ISC"
 }
