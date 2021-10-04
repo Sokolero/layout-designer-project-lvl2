@@ -1,5 +1,6 @@
 .news-item {
   width: 100%;
+
   h3 {
     font-weight: 400;
   }
@@ -8,6 +9,7 @@
 .news-image {
   width: 100%;
   margin-bottom: 50px;
+
   @media (min-width: 1240px) {
     flex: 0 0 575px;
     height: auto;
@@ -15,47 +17,24 @@
   }
 }
 
-
 .news-card {
   @media (min-width: 1240px) {
     flex: 0 0 575px;
   }
 }
 
-.mb-48px {
-  margin-bottom: 48px;
-}
-
-
 .news-author {
   margin-bottom: 48px;
+
   vertical-align: middle;
-}
-
-.dark-grey {
-  color: $dark-grey;
-}
-
-.orange {
-  color: $orange;
-}
-
-.text-small {
-  @include text-small;
 }
 
 .news-btn {
   @extend %btn-generic;
+
   @include text-small;
+
   width: auto;
   padding: 16px 30px;
   border: 1px solid $dark-grey;
-}
-
-.mr-16px {
-  margin-right: 16px;
-}
-
-.mb-64px {
-  margin-bottom: 64px;
 }

@@ -30,3 +30,33 @@
 .capitalize-text {
   text-transform: capitalize;
 }
+
+.text-grey {
+  color: $grey;
+}
+
+.dark-grey {
+  color: $dark-grey;
+}
+
+.orange {
+  color: $orange;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.fs-30px-lg {
+  @media (min-width: 1240px) {
+    font-size: 30px;
+  }
+}
+
+.text-small {
+  @include text-small;
+}
+
+.lh-main {
+  line-height: $main-line-height;
+}

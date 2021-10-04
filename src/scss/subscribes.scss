@@ -1,16 +1,23 @@
+@include bg-card("subscribe_1.png", 1);
+@include bg-card("subscribe_2.png", 2);
+@include bg-card("subscribe_3.png", 3);
+
 .pricing-card {
   flex: 0 0 auto;
+
   width: 100%;
   height: auto;
-  padding-top: 14px;
   margin-top: 50px;
+  padding-top: 14px;
+
   @media (min-width: 1240px) {
-    padding-top: 24px;
     max-width: 368px;
+    padding-top: 24px;
   }
+  padding-right: 1.5rem;
   padding-bottom: 64px;
   padding-left: 1.5rem;
-  padding-right: 1.5rem;
+
   border-radius: 1rem;
 
   h3 {
@@ -19,9 +26,11 @@
 
   @media (min-width: 1240px) {
     margin-bottom: 0;
+
     h3 {
       line-height: 1.5;
     }
+
     & {
       margin-right: 48px;
     }
@@ -30,23 +39,22 @@
 
 .pricing-card:last-child {
   margin-right: 0;
-
 }
-
-@include bg-card("subscribe_1.png", 1);
-@include bg-card("subscribe_2.png", 2);
-@include bg-card("subscribe_3.png", 3);
 
 .price {
   margin-bottom: 41px;
+
   @media (min-width: 1240px) {
     margin-bottom: 40px;
   }
+
   &-number {
+    margin-right: 16px;
+
     font-size: 64px;
     line-height: 64px;
-    margin-right: 16px;
   }
+
   &-unit {
     font-size: 32px;
     line-height: 48px;
@@ -57,61 +65,29 @@
 .pricing-resume {
   margin-top: 40px;
   margin-bottom: 0;
+
   @media (min-width: 1240px) {
     margin-top: 38px;
   }
 }
 
-
 .price-btn {
   display: inline-block;
+
+  border: 1px solid #fff;
+
   font-size: 16px;
   line-height: 1.5;
-  border: 1px solid #fff;
-  text-decoration: none;
+
   text-align: center;
+  text-decoration: none;
+
   background: none;
 }
 
 .price-description {
   @include text-small;
-  text-align: center;
   margin: 0;
-}
 
-.text-align-center {
   text-align: center;
-}
-
-.mb-200px {
-  margin-bottom: 200px;
-}
-
-.mb-40px {
-  margin-bottom: 40px;
-}
-
-.mb-39px {
-  margin-bottom: 39px;
-}
-
-
-.mb-64px {
-  margin-bottom: 64px;
-}
-
-.mb-63px {
-  margin-bottom: 63px;
-}
-
-.mb-46px {
-  margin-bottom: 46px;
-}
-
-.mb-50px {
-  margin-bottom: 50px;
-}
-
-.w-100 {
-  width: 100%;
 }

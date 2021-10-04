@@ -7,17 +7,10 @@
 
 .col {
   width: 100%;
+
   @media (min-width: 1240px) {
     width: 50%;
   }
-}
-
-.w-100 {
-  width: 100%;
-}
-
-.align-items-start {
-  align-items: flex-start;
 }
 
 .bg-red {
@@ -25,26 +18,13 @@
 }
 
 .mobile-app-btn {
-  border-radius: 32px;
   @include text-small;
-  padding: 16px 40px;
+
   width: auto;
+
+  padding: 16px 40px;
+
+  border-radius: 32px;
+
   text-transform: none;
-}
-
-.pb-100px {
-  padding-bottom: 100px;
-}
-
-.flex {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.mt-16px {
-  margin-top: 16px;
-}
-
-.align-items-center {
-  align-items: center;
 }

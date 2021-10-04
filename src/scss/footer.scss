@@ -1,30 +1,41 @@
-// .footer-wrapper {
-//   width: 100%;
-//   padding-top: 3.5rem;
-//   // padding-bottom: 2rem;
-// }
-
 .footer {
   width: 100%;
+
   padding-top: 3.5rem;
+}
+
+.footer-block {
+  margin-bottom: 32px;
+
+  &-list {
+    @include reset;
+    @include reset-padding;
+    list-style-type: none;
+  }
+
+  &-title {
+    margin-bottom: 14px;
+  }
+
+  a {
+    color: $grey;
+    text-decoration: none;
+  }
+
+  h2 {
+    @include h2-mobile;
+  }
+
+  li {
+    @media (min-width: 1240px) {
+      margin-right: 19px;
+    }
+  }
 }
 
 .bg-gradient {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
   background-size: cover;
-}
-
-.footer-grid {
-
-  @media (min-width: 1240px) {
-    display: grid;
-    grid-gap: 40px;
-    grid-template-columns: repeat(4, 1fr);
-    // grid-template-rows: auto auto;
-    grid-template-areas:
-      "about-us support contacts social"
-      "footer-menu footer-menu footer-menu footer-menu";
-  }
 }
 
 @media (min-width: 1240px) {
@@ -47,53 +58,44 @@
   .footer-menu {
     grid-area: footer-menu;
   }
-}
 
-.footer-block {
-  margin-bottom: 32px;
-  &-list {
-    list-style-type: none;
-    @include reset;
-    @include reset-padding;
-  }
-  &-title {
-    margin-bottom: 14px;
-  }
-  a {
-    text-decoration: none;
-    color: $grey;
-  }
-  h2 {
-    @include h2-mobile;
-  }
-  li {
-    @media (min-width: 1240px) {
-      margin-right: 19px;
-    }
+  .footer-grid {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-areas:
+      "about-us support contacts social"
+      "footer-menu footer-menu footer-menu footer-menu";
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 .social-icons {
   display: flex;
+
   height: 20px;
 }
 
 .social-link {
   width: auto;
+
   vertical-align: middle;
 }
 
 .footer-menu-wrapper {
-  border-top: 1px solid $grey;
   width: 100%;
   padding-top: 40px;
   padding-bottom: 48px;
+
+  border-top: 1px solid $grey;
+
   &-item {
     margin-bottom: 14px;
   }
+
   @media (min-width: 1240px) {
     &-item {
       display: inline-block;
+
       margin-right: 16px;
     }
   }
@@ -101,36 +103,28 @@
 
 .footer-menu {
   a {
-    text-decoration: none;
     color: $grey;
+
+    text-decoration: none;
   }
+
   &-item {
     display: block;
+
     margin-bottom: 15px;
+
     font-size: 16px;
     line-height: 1.5;
+
     @media (min-width: 1240px) {
       display: inline-block;
-      margin-bottom: 0;
+
       margin-right: 16px;
+      margin-bottom: 0;
     }
   }
+
   &-item:last-child {
     margin-bottom: 0;
   }
-}
-
-.mb-68px-lg {
-  @media (min-width: 1240px) {
-    margin-bottom: 68px;
-  }
-}
-
-.mb-76px {
-  margin-bottom: 76px;
-}
-
-
-.mr-24px {
-  margin-right: 24px;
 }

@@ -1,6 +1,6 @@
 @mixin caps-bold-text {
-  text-transform: uppercase;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 @mixin font-11px {
