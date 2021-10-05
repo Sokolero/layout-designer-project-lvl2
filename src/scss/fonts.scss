@@ -23,8 +23,8 @@
   text-transform: uppercase;
 }
 
-.caps-bold-text {
-  @include caps-bold-text;
+.text-bold {
+  font-weight: 700;
 }
 
 .capitalize-text {

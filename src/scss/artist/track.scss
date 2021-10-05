@@ -1,8 +1,3 @@
-.tracks-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .tracks-item {
   display: flex;
   width: 100%;
@@ -46,22 +41,4 @@
   font-weight: 400;
   font-size: 12.8px;
   line-height: 1.5;
-}
-
-.pt-100px {
-  padding-top: 100px;
-}
-
-.mt-25px {
-  margin-top: 25px;
-}
-
-.mb-24px-lg {
-  @media (min-width: 1240px) {
-    margin-bottom: 24px;
-  }
-}
-
-.mb-24px {
-  margin-bottom: 24px;
 }

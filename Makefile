@@ -3,6 +3,7 @@ install:
 
 lint:
 	npx stylelint ./src/scss/artist/*.scss
+	npx stylelint ./src/scss/*.scss
 	npx htmlhint ./src/*.html
 
 deploy:

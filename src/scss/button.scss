@@ -1,0 +1,26 @@
+%btn-generic {
+  display: inline-block;
+
+  width: 100%;
+  padding: 20px 30px;
+
+  border: none;
+  border-radius: 5px;
+
+  color: #fff;
+  font-weight: 400;
+  font-size: 13.3px;
+  font-family: Arial, sans-serif;
+  line-height: 15.29px;
+
+  text-transform: uppercase;
+  text-decoration: none;
+
+  @media (min-width: 1240px) {
+    width: 100%;
+  }
+}
+
+.btn {
+  @extend %btn-generic;
+}

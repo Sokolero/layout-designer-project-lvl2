@@ -1,0 +1,84 @@
+@include bg-card("subscribe_1.png", 1);
+@include bg-card("subscribe_2.png", 2);
+@include bg-card("subscribe_3.png", 3);
+
+.pricing-card {
+  flex: 0 0 auto;
+
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  padding-top: 14px;
+
+  @media (min-width: 1240px) {
+    max-width: 368px;
+    padding-top: 24px;
+  }
+  padding-right: 1.5rem;
+  padding-bottom: 64px;
+  padding-left: 1.5rem;
+
+  border-radius: 1rem;
+
+  h3 {
+    font-weight: 400;
+  }
+
+  @media (min-width: 1240px) {
+    margin-bottom: 0;
+
+    h3 {
+      line-height: 1.5;
+    }
+
+    & {
+      margin-right: 48px;
+    }
+  }
+}
+
+.pricing-card:last-child {
+  margin-right: 0;
+}
+
+.price {
+  margin-bottom: 41px;
+
+  @media (min-width: 1240px) {
+    margin-bottom: 40px;
+  }
+
+  &-number {
+    margin-right: 16px;
+
+    font-size: 64px;
+    line-height: 64px;
+  }
+
+  &-unit {
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: uppercase;
+  }
+}
+
+.price-btn {
+  display: inline-block;
+
+  border: 1px solid #fff;
+
+  font-size: 16px;
+  line-height: 1.5;
+
+  text-align: center;
+  text-decoration: none;
+
+  background: none;
+}
+
+.price-description {
+  @include text-small;
+  margin: 0;
+
+  text-align: center;
+}
