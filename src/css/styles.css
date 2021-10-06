@@ -334,6 +334,14 @@ h4 {
   margin-right: 16px;
 }
 
+.mb-14px {
+  margin-bottom: 14px;
+}
+
+.mt-3px {
+  margin-top: 3px;
+}
+
 .mt-0 {
   margin-top: 0;
 }
@@ -541,6 +549,35 @@ h4 {
   }
 }
 
+.search-box-input::placeholder {
+  padding-left: 7px;
+}
+
+/* WebKit, Edge */
+.search-box-input::-webkit-input-placeholder {
+  padding-left: 7px;
+}
+
+/* Firefox 4-18 */
+.search-box-input:-moz-placeholder {
+  padding-left: 7px;
+}
+
+/* Firefox 19+ */
+.search-box-input::-moz-placeholder {
+  padding-left: 7px;
+}
+
+/* IE 10-11 */
+.search-box-input:-ms-input-placeholder {
+  padding-left: 7px;
+}
+
+/* Edge */
+.search-box-input::-ms-input-placeholder {
+  padding-left: 7px;
+}
+
 .banner-wrapper {
   width: 100%;
   background-image: url(../images/banner.png);
@@ -587,7 +624,39 @@ h4 {
 }
 
 .banner-form-field::placeholder {
-  padding-left: 22px;
+  padding-left: 18px;
+  color: #fff;
+}
+
+/* WebKit, Edge */
+::-webkit-input-placeholder {
+  padding-left: 18px;
+  color: #fff;
+}
+
+/* Firefox 4-18 */
+:-moz-placeholder {
+  padding-left: 18px;
+  color: #fff;
+  opacity: 1;
+}
+
+/* Firefox 19+ */
+::-moz-placeholder {
+  padding-left: 18px;
+  color: #fff;
+  opacity: 1;
+}
+
+/* IE 10-11 */
+:-ms-input-placeholder {
+  padding-left: 18px;
+  color: #fff;
+}
+
+/* Edge */
+::-ms-input-placeholder {
+  padding-left: 18px;
   color: #fff;
 }
 
@@ -795,9 +864,6 @@ h4 {
   padding: 0;
   list-style-type: none;
 }
-.footer-block-title {
-  margin-bottom: 14px;
-}
 .footer-block a {
   color: #e0e0e0;
   text-decoration: none;
@@ -810,6 +876,9 @@ h4 {
   .footer-block li {
     margin-right: 19px;
   }
+}
+.footer-block:last-child {
+  margin-bottom: 76px;
 }
 
 .bg-gradient {

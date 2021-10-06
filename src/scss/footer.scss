@@ -13,10 +13,6 @@
     list-style-type: none;
   }
 
-  &-title {
-    margin-bottom: 14px;
-  }
-
   a {
     color: $grey;
     text-decoration: none;
@@ -30,6 +26,10 @@
     @media (min-width: 1240px) {
       margin-right: 19px;
     }
+  }
+
+  &:last-child {
+    margin-bottom: 76px;
   }
 }
 

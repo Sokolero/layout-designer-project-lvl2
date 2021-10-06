@@ -91,3 +91,32 @@
     margin-left: auto;
   }
 }
+
+.search-box-input::placeholder {
+  padding-left: 7px;
+}
+
+/* WebKit, Edge */
+.search-box-input::-webkit-input-placeholder {
+  padding-left: 7px;
+}
+
+/* Firefox 4-18 */
+.search-box-input:-moz-placeholder {
+  padding-left: 7px;
+}
+
+/* Firefox 19+ */
+.search-box-input::-moz-placeholder {
+  padding-left: 7px;
+}
+
+/* IE 10-11 */
+.search-box-input:-ms-input-placeholder {
+  padding-left: 7px;
+}
+
+/* Edge */
+.search-box-input::-ms-input-placeholder {
+  padding-left: 7px;
+}
