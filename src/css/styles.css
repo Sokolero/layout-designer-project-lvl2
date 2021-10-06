@@ -475,19 +475,16 @@ ul {
   width: 100%;
 }
 
-.logo {
-  color: #fff;
-  text-decoration: none;
-}
-
 .logo-img {
   width: 24px;
   height: 24px;
+  margin-right: 16px;
 }
 
 .logo-text {
   font-size: 11px;
   line-height: 12.89px;
+  display: inline-block;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -495,6 +492,7 @@ ul {
   .logo-text {
     font-size: 10px;
     line-height: 16.5px;
+    flex: 0 0 57px;
     margin-right: 91px;
   }
 }
@@ -506,8 +504,6 @@ ul {
   flex-direction: column;
   margin-top: 0;
   padding: 0;
-  font-weight: 700;
-  text-transform: uppercase;
   list-style-type: none;
 }
 .nav a {
@@ -515,6 +511,8 @@ ul {
 }
 .nav .nav-item {
   margin-bottom: 3px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 @media (min-width: 1240px) {
   .nav .nav-item {
@@ -522,12 +520,6 @@ ul {
     margin-right: 24px;
     margin-bottom: 0;
   }
-}
-.nav .nav-link {
-  color: #e0e0e0;
-}
-.nav .nav-link-active {
-  color: #fff;
 }
 @media (min-width: 1240px) {
   .nav {
