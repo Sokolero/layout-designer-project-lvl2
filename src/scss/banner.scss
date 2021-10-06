@@ -32,10 +32,12 @@
 .banner-form-field {
   @include banner-form-field-mobile;
   height: 50px;
+  padding-left: 22px;
 
   border: 2px solid $dark-grey;
   border-radius: 3px;
 
+  color: #fff;
   font-weight: 700;
   font-size: 14px;
   line-height: 16.41px;
@@ -47,6 +49,7 @@
   }
 }
 
+
 .banner-form-field::placeholder {
   padding-left: 18px;
 
@@ -54,14 +57,15 @@
 }
 
 /* WebKit, Edge */
-::-webkit-input-placeholder {
+.banner-form-field::-webkit-input-placeholder {
   padding-left: 18px;
 
   color: #fff;
 }
 
 /* Firefox 4-18 */
-:-moz-placeholder {
+
+.banner-form-field:-moz-placeholder {
   padding-left: 18px;
 
   color: #fff;
@@ -69,7 +73,8 @@
 }
 
 /* Firefox 19+ */
-::-moz-placeholder {
+
+.banner-form-field::-moz-placeholder {
   padding-left: 18px;
 
   color: #fff;
@@ -77,14 +82,15 @@
 }
 
 /* IE 10-11 */
-:-ms-input-placeholder {
+
+.banner-form-field:-ms-input-placeholder {
   padding-left: 18px;
 
   color: #fff;
 }
 
 /* Edge */
-::-ms-input-placeholder {
+.banner-form-field::-ms-input-placeholder {
   padding-left: 18px;
 
   color: #fff;
