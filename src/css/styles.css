@@ -510,7 +510,6 @@ h4 {
 }
 .nav .nav-item {
   margin-bottom: 3px;
-  color: #e0e0e0;
 }
 @media (min-width: 1240px) {
   .nav .nav-item {
@@ -519,7 +518,10 @@ h4 {
     margin-bottom: 0;
   }
 }
-.nav .nav-item-active {
+.nav .nav-link {
+  color: #e0e0e0;
+}
+.nav .nav-link-active {
   color: #fff;
 }
 @media (min-width: 1240px) {
@@ -610,8 +612,10 @@ h4 {
   width: 100%;
   margin-bottom: 24px;
   height: 50px;
+  padding-left: 20px;
   border: 2px solid #cacaca;
   border-radius: 3px;
+  color: #fff;
   font-weight: 700;
   font-size: 14px;
   line-height: 16.41px;
@@ -624,39 +628,33 @@ h4 {
 }
 
 .banner-form-field::placeholder {
-  padding-left: 18px;
   color: #fff;
 }
 
 /* WebKit, Edge */
-::-webkit-input-placeholder {
-  padding-left: 18px;
+.banner-form-field::-webkit-input-placeholder {
   color: #fff;
 }
 
 /* Firefox 4-18 */
-:-moz-placeholder {
-  padding-left: 18px;
+.banner-form-field:-moz-placeholder {
   color: #fff;
   opacity: 1;
 }
 
 /* Firefox 19+ */
-::-moz-placeholder {
-  padding-left: 18px;
+.banner-form-field::-moz-placeholder {
   color: #fff;
   opacity: 1;
 }
 
 /* IE 10-11 */
-:-ms-input-placeholder {
-  padding-left: 18px;
+.banner-form-field:-ms-input-placeholder {
   color: #fff;
 }
 
 /* Edge */
-::-ms-input-placeholder {
-  padding-left: 18px;
+.banner-form-field::-ms-input-placeholder {
   color: #fff;
 }
 
