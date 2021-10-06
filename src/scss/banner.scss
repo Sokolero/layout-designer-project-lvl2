@@ -49,7 +49,44 @@
   }
 }
 
-.banner-form-field::placeholder {
+::placeholder {
+  padding-left: 22px;
+
+  color: #fff;
+}
+
+/* WebKit, Edge */
+::-webkit-input-placeholder {
+  padding-left: 22px;
+
+  color: #fff;
+}
+
+/* Firefox 4-18 */
+:-moz-placeholder { 
+  padding-left: 22px;
+
+  color: #fff;
+  opacity: 1;
+}
+
+/* Firefox 19+ */
+::-moz-placeholder { 
+  padding-left: 22px;
+
+  color: #fff;
+  opacity: 1;
+}
+
+/* IE 10-11 */
+:-ms-input-placeholder { 
+  padding-left: 22px;
+
+  color: #fff;
+}
+
+/* Edge */
+::-ms-input-placeholder { 
   padding-left: 22px;
 
   color: #fff;
