@@ -32,6 +32,7 @@
 .banner-form-field {
   @include banner-form-field-mobile;
   height: 50px;
+  padding-left: 22px;
 
   border: 2px solid $dark-grey;
   border-radius: 3px;
