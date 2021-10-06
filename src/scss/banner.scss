@@ -58,26 +58,28 @@
   color: #fff;
 }
 
-/* Firefox 4-18 */
-.banner-form-field:-moz-placeholder {
-  color: #fff;
-  opacity: 1;
-}
-
 /* Firefox 19+ */
 
 .banner-form-field::-moz-placeholder {
   color: #fff;
+
+  opacity: 1;
+}
+
+/* Edge */
+.banner-form-field::-ms-input-placeholder {
+  color: #fff;
+}
+
+/* Firefox 4-18 */
+.banner-form-field:-moz-placeholder {
+  color: #fff;
+
   opacity: 1;
 }
 
 /* IE 10-11 */
 .banner-form-field:-ms-input-placeholder {
-  color: #fff;
-}
-
-/* Edge */
-.banner-form-field::-ms-input-placeholder {
   color: #fff;
 }
 
