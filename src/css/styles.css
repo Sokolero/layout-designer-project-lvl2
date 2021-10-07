@@ -504,22 +504,26 @@ ul {
   flex-direction: column;
   margin-top: 0;
   padding: 0;
-  list-style-type: none;
-}
-.nav a {
-  text-decoration: none;
 }
 .nav .nav-item {
+  display: inline-block;
   margin-bottom: 3px;
-  font-weight: 700;
-  text-transform: uppercase;
+  list-style-type: none;
 }
 @media (min-width: 1240px) {
   .nav .nav-item {
-    display: block;
     margin-right: 24px;
     margin-bottom: 0;
   }
+}
+.nav .nav-link {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.nav .nav-link-active {
+  color: #e0e0e0;
 }
 @media (min-width: 1240px) {
   .nav {
