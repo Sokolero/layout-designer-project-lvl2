@@ -5,6 +5,7 @@
 }
 
 .footer-block {
+  // margin-bottom: 32px;
   &-list {
     @include reset;
     @include reset-padding;
@@ -36,37 +37,49 @@
   background-size: cover;
 }
 
-@media (min-width: 1240px) {
-  .about-us {
-    grid-area: about-us;
-  }
 
-  .support {
-    grid-area: support;
-  }
+.about-us {
+  grid-area: about-us;
+}
 
-  .contacts {
-    grid-area: contacts;
-  }
+.support {
+  grid-area: support;
+}
 
-  .social {
-    grid-area: social;
-  }
+.contacts {
+  grid-area: contacts;
+}
 
-  .footer-menu {
-    grid-area: footer-menu;
-  }
+.social {
+  grid-area: social;
+}
 
-  .footer-grid {
-    display: grid;
+.footer-menu {
+  grid-area: footer-menu;
+}
+
+.footer-grid {
+  display: grid;
+  grid-row-gap: 32px;
+  grid-column-gap: 40px;
+  grid-template-areas:
+    "about-us"
+    "support"
+    "contacts"
+    "social"
+    "footer-menu";
+  grid-template-columns: 1fr;
+  grid-template-rows: 2;
+
+  @include for-desktop {
     grid-row-gap: 72px;
-    grid-column-gap: 40px;
     grid-template-areas:
       "about-us support contacts social"
       "footer-menu footer-menu footer-menu footer-menu";
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
 
 .social-icons {
   display: flex;
