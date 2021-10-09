@@ -37,7 +37,6 @@
   background-size: cover;
 }
 
-
 .about-us {
   grid-area: about-us;
 }
@@ -56,6 +55,32 @@
 
 .footer-menu {
   grid-area: footer-menu;
+
+  a {
+    color: $grey;
+
+    text-decoration: none;
+  }
+
+  &-item {
+    display: block;
+
+    margin-bottom: 15px;
+
+    font-size: 16px;
+    line-height: 1.5;
+
+    @include for-desktop {
+      display: inline-block;
+
+      margin-right: 16px;
+      margin-bottom: 0;
+    }
+  }
+
+  &-item:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .footer-grid {
@@ -68,8 +93,8 @@
     "contacts"
     "social"
     "footer-menu";
-  grid-template-columns: 1fr;
   grid-template-rows: 2;
+  grid-template-columns: 1fr;
 
   @include for-desktop {
     grid-row-gap: 72px;
@@ -79,7 +104,6 @@
     grid-template-columns: repeat(4, 1fr);
   }
 }
-
 
 .social-icons {
   display: flex;
@@ -110,33 +134,5 @@
 
       margin-right: 16px;
     }
-  }
-}
-
-.footer-menu {
-  a {
-    color: $grey;
-
-    text-decoration: none;
-  }
-
-  &-item {
-    display: block;
-
-    margin-bottom: 15px;
-
-    font-size: 16px;
-    line-height: 1.5;
-
-    @include for-desktop {
-      display: inline-block;
-
-      margin-right: 16px;
-      margin-bottom: 0;
-    }
-  }
-
-  &-item:last-child {
-    margin-bottom: 0;
   }
 }
