@@ -1,12 +1,10 @@
 .footer {
   width: 100%;
 
-  padding-top: 3.5rem;
+  padding-top: 63px;
 }
 
 .footer-block {
-  margin-bottom: 32px;
-
   &-list {
     @include reset;
     @include reset-padding;
@@ -61,7 +59,8 @@
 
   .footer-grid {
     display: grid;
-    grid-gap: 40px;
+    grid-row-gap: 72px;
+    grid-column-gap: 40px;
     grid-template-areas:
       "about-us support contacts social"
       "footer-menu footer-menu footer-menu footer-menu";

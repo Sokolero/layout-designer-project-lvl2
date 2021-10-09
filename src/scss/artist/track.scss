@@ -1,10 +1,10 @@
 .tracks-item {
   display: flex;
-  width: 100%;
+  flex-basis: 100%;
   height: 55px;
 
   @media (min-width: 1240px) {
-    width: 551px;
+    flex-basis: 551px;
     margin-right: 49px;
   }
 }
@@ -16,7 +16,7 @@
 }
 
 .tracks-item-image {
-  width: 55px;
+  flex-basis: 55px;
   height: auto;
   margin-right: 15px;
 }
@@ -34,7 +34,7 @@
 .tracks-item-time {
   display: flex;
   align-items: center;
-  width: auto;
+  flex-basis: auto;
   margin-right: 0;
   margin-left: auto;
 

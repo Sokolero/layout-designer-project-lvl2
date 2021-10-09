@@ -1,5 +1,5 @@
 .discography-item {
-  width: 137px;
+  flex-basis: 137px;
   margin-top: 25px;
   margin-right: 50px;
 
@@ -8,6 +8,8 @@
   }
 
   &-image {
+    display: block;
+    
     width: 137px;
     height: 137px;
     margin-bottom: 10px; //!!!!!!

@@ -89,3 +89,50 @@ a {
   margin-left: auto;
   padding: 0 20px;
 }
+
+.text-main {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.capitalize-text {
+  text-transform: capitalize;
+}
+
+.text-grey {
+  color: $grey;
+}
+
+.dark-grey {
+  color: $dark-grey;
+}
+
+.orange {
+  color: $orange;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.fs-30px-lg {
+  @media (min-width: 1240px) {
+    font-size: 30px;
+  }
+}
+
+.text-small {
+  @include text-small;
+}
+
+.lh-main {
+  line-height: $main-line-height;
+}

@@ -32,9 +32,10 @@
 .news-btn {
   @extend %btn-generic;
 
-  @include text-small;
-
   width: auto;
   padding: 16px 30px;
   border: 1px solid $dark-grey;
+
+  font-size: 12px;
+  line-height: 19px;
 }

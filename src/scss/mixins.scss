@@ -27,8 +27,8 @@
 }
 
 @mixin text-small {
-  font-size: 12.8px;
-  line-height: 19.2px;
+  font-size: 12px;
+  line-height: 19px;
 }
 
 @mixin bg-card($image-url, $number) {
@@ -62,4 +62,8 @@
       margin-bottom: $value;
     }
   }
+}
+
+@mixin for-desktop {
+  @media (min-width: $width_desktop) { @content; }
 }
