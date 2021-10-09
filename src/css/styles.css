@@ -1123,7 +1123,7 @@ a {
 }
 
 .tracks-item-image {
-  flex-basis: 55px;
+  width: 55px;
   height: auto;
   margin-right: 15px;
 }
@@ -1140,7 +1140,7 @@ a {
 .tracks-item-time {
   display: flex;
   align-items: center;
-  flex-basis: auto;
+  width: auto;
   margin-right: 0;
   margin-left: auto;
   font-weight: 400;
