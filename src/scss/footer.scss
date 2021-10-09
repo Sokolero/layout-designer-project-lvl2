@@ -21,7 +21,7 @@
   }
 
   li {
-    @media (min-width: 1240px) {
+    @include for-desktop {
       margin-right: 19px;
     }
   }
@@ -115,7 +115,7 @@
     font-size: 16px;
     line-height: 1.5;
 
-    @media (min-width: 1240px) {
+    @include for-desktop {
       display: inline-block;
 
       margin-right: 16px;

@@ -10,7 +10,7 @@
   margin-top: 50px;
   padding-top: 14px;
 
-  @media (min-width: 1240px) {
+  @include for-desktop {
     max-width: 368px;
     padding-top: 24px;
   }
@@ -44,7 +44,7 @@
 .price {
   margin-bottom: 41px;
 
-  @media (min-width: 1240px) {
+  @include for-desktop {
     margin-bottom: 40px;
   }
 

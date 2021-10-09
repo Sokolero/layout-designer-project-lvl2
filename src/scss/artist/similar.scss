@@ -5,7 +5,7 @@
 
   text-align: center;
 
-  @media (min-width: 1240px) {
+  @include for-desktop {
     width: 250px;
   }
 
@@ -14,7 +14,7 @@
     height: 137px;
     margin-bottom: 10px;
 
-    @media (min-width: 1240px) {
+    @include for-desktop {
       width: 250px;
       height: 250px;
     }

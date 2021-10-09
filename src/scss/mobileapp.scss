@@ -8,7 +8,7 @@
 .col {
   width: 100%;
 
-  @media (min-width: 1240px) {
+  @include for-desktop {
     width: 50%;
   }
 }

@@ -19,7 +19,7 @@
   font-weight: 700;
   text-transform: uppercase;
 
-  @media (min-width: 1240px) {
+  @include for-desktop {
     @include font-10px;
     flex: 0 0 57px;
 
@@ -43,7 +43,7 @@
 
     list-style-type: none;
 
-    @media (min-width: 1240px) {
+    @include for-desktop {
       margin-right: 24px;
       margin-bottom: 0;
     }
@@ -60,7 +60,7 @@
     color: $grey;
   }
 
-  @media (min-width: 1240px) {
+  @include for-desktop {
     flex-direction: row;
   }
 }
@@ -83,7 +83,7 @@
     background-color: $dark;
   }
 
-  @media (min-width: 1240px) {
+  @include for-desktop {
     width: 248px;
     margin-left: auto;
   }

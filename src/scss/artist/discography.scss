@@ -3,18 +3,18 @@
   margin-top: 25px;
   margin-right: 50px;
 
-  @media (min-width: 1240px) {
+  @include for-desktop {
     width: 250px;
   }
 
   &-image {
     display: block;
-    
+
     width: 137px;
     height: 137px;
     margin-bottom: 10px; //!!!!!!
 
-    @media (min-width: 1240px) {
+    @include for-desktop {
       width: 250px;
       height: 250px;
     }

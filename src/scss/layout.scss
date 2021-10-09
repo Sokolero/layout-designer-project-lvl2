@@ -40,25 +40,25 @@
 }
 
 .dir-row-lg {
-  @media (min-width: 1240px) {
+  @include for-desktop {
     flex-direction: row;
   }
 }
 
 .dir-row-reverse-lg {
-  @media (min-width: 1240px) {
+  @include for-desktop {
     flex-direction: row-reverse;
   }
 }
 
 .align-items-center-lg {
-  @media (min-width: 1240px) {
+  @include for-desktop {
     align-items: center;
   }
 }
 
 .d-none-lg {
-  @media (min-width: 1240px) {
+  @include for-desktop {
     display: none;
   }
 }
@@ -185,49 +185,49 @@
 }
 
 .mb-65-lg {
-  @media (min-width: 1240px) {
+  @include for-desktop {
     margin-bottom: 65px;
   }
 }
 
 .mr-50px-lg {
-  @media (min-width: 1240px) {
+  @include for-desktop {
     margin-right: 50px;
   }
 }
 
 .mb-64px-lg {
-  @media (min-width: 1240px) {
+  @include for-desktop {
     margin-bottom: 64px;
   }
 }
 
 .mb-24px-lg {
-  @media (min-width: 1240px) {
+  @include for-desktop {
     margin-bottom: 24px;
   }
 }
 
 .mt-0-lg {
-  @media (min-width: 1240px) {
+  @include for-desktop {
     margin-top: 0;
   }
 }
 
 .mb-0-lg {
-  @media (min-width: 1240px) {
+  @include for-desktop {
     margin-bottom: 0;
   }
 }
 
 .m-0-lg {
-  @media (min-width: 1240px) {
+  @include for-desktop {
     margin: 0;
   }
 }
 
 .mb-30px-lg {
-  @media (min-width: 1240px) {
+  @include for-desktop {
     margin-bottom: 30px;
   }
 }
@@ -236,7 +236,7 @@
 @include mb-lg(0);
 
 .mb-68px-lg {
-  @media (min-width: 1240px) {
+  @include for-desktop {
     margin-bottom: 68px;
   }
 }
@@ -275,13 +275,13 @@
 }
 
 .pt-200px-lg {
-  @media (min-width: 1240px) {
+  @include for-desktop {
     padding-top: 200px;
   }
 }
 
 .pt-250px-lg {
-  @media (min-width: 1240px) {
+  @include for-desktop {
     padding-top: 250px;
   }
 }

@@ -10,7 +10,7 @@
   width: 374px;
   margin-bottom: 50px;
 
-  @media (min-width: 1240px) {
+  @include for-desktop {
     flex: 0 0 575px;
     height: auto;
     margin-bottom: 0;
@@ -18,7 +18,7 @@
 }
 
 .news-card {
-  @media (min-width: 1240px) {
+  @include for-desktop {
     flex: 0 0 575px;
   }
 }
