@@ -5,9 +5,8 @@
 }
 
 .footer-block {
-  // margin-bottom: 32px;
   &-list {
-    @include reset;
+    @include reset-margin;
     @include reset-padding;
     list-style-type: none;
   }

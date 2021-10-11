@@ -10,7 +10,7 @@
   &-image {
     width: 137px;
     height: 137px;
-    margin-bottom: 10px; //!!!!!!
+    margin-bottom: 10px;
 
     @include for-desktop {
       width: 250px;
@@ -28,6 +28,6 @@
   }
 
   &-year {
-    @include reset;
+    @include reset-margin;
   }
 }

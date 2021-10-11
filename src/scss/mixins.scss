@@ -1,11 +1,14 @@
+@mixin font-size-line($font-size, $line-height) {
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
 @mixin font-11px {
-  font-size: 11px;
-  line-height: 12.89px;
+  @include font-size-line(11px, 12.89px);
 }
 
 @mixin font-10px {
-  font-size: 10px;
-  line-height: 16.5px;
+  @include font-size-line(10px, 16.5px);
 }
 
 @mixin banner-form-field-mobile {
@@ -13,12 +16,7 @@
   margin-bottom: 24px;
 }
 
-@mixin font-size-line($font-size, $line-height) {
-  font-size: $font-size;
-  line-height: $line-height;
-}
-
-@mixin reset {
+@mixin reset-margin {
   margin: 0;
 }
 
