@@ -21,48 +21,41 @@ body {
 h1 {
   @include reset-margin;
   font-weight: 700;
-  font-size: 30px;
-  line-height: 45px;
+  @include font-size-line(30px, 45px);
   text-transform: uppercase;
 
   @include for-desktop {
-    font-size: 60px;
-    line-height: 90px;
+    @include font-size-line(60px, 90px);
   }
 }
 
 h2 {
   @include reset-margin;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 27px;
+  @include font-size-line(18px, 27px);;
   text-transform: uppercase;
 
   @include for-desktop {
-    font-size: 38px;
-    line-height: 57px;
+    @include font-size-line(38px, 57px);
   }
 }
 
 h3 {
   @include reset-margin;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
+  @include font-size-line(16px, 24px);
   text-transform: uppercase;
 
   @include for-desktop {
     font-weight: 400;
-    font-size: 24px;
-    line-height: 45px;
+    @include font-size-line(24px, 45px);
   }
 }
 
 h4 {
   @include reset-margin;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
+  @include font-size-line(18px, 24px);
   text-transform: uppercase;
 
   @include for-desktop {
@@ -89,8 +82,7 @@ a {
 }
 
 .text-main {
-  font-size: 16px;
-  line-height: 24px;
+  @include font-size-line(16px, 24px);
 }
 
 .text-uppercase {
