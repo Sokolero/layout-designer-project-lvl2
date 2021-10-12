@@ -6,6 +6,7 @@ html {
   color: #fff;
 
   font-weight: 400;
+
   @include font-size-line(18px, 1.5);
   font-family: Roboto, sans-serif;
 
