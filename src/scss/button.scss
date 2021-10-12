@@ -9,9 +9,8 @@
 
   color: #fff;
   font-weight: 400;
-  font-size: 13.3px;
+  @include font-size-line(13.3px, 15.3px);
   font-family: Arial, sans-serif;
-  line-height: 15.29px;
 
   text-transform: uppercase;
   text-decoration: none;

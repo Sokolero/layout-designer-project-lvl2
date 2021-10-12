@@ -76,9 +76,9 @@
     border-radius: 50px;
 
     color: $search-grey;
-    font-size: 13.3px;
+    @include font-size-line(13.3px, 15.29px);
+
     font-family: "Arial", sans-serif;
-    line-height: 15.29px;
 
     background-color: $dark;
   }

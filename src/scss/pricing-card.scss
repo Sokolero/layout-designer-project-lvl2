@@ -51,13 +51,12 @@
   &-number {
     margin-right: 16px;
 
-    font-size: 64px;
-    line-height: 64px;
+    @include font-size-line(64px, 64px);
   }
 
   &-unit {
-    font-size: 32px;
-    line-height: 48px;
+    @include font-size-line(32px, 48px);
+
     text-transform: uppercase;
   }
 }
@@ -67,8 +66,7 @@
 
   border: 1px solid #fff;
 
-  font-size: 16px;
-  line-height: 1.5;
+  @include font-size-line(16px, 1.5);
 
   text-align: center;
   text-decoration: none;

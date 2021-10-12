@@ -36,6 +36,5 @@
   padding: 16px 30px;
   border: 1px solid $dark-grey;
 
-  font-size: 12px;
-  line-height: 19px;
+  @include font-size-line(12px, 19px);
 }

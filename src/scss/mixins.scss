@@ -25,8 +25,7 @@
 }
 
 @mixin text-small {
-  font-size: 12.8px;
-  line-height: 19.2px;
+  @include font-size-line(12.8px, 19.2px);
 }
 
 @mixin bg-card($image-url, $number) {
@@ -38,8 +37,7 @@
 }
 
 @mixin h2-mobile {
-  font-size: 18px;
-  line-height: 27px;
+  @include font-size-line(18px, 27px);
 }
 
 @mixin mb($value) {
